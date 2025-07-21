@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Prog 5:Final Project</title>
+    
+    <link type="text/css" rel="stylesheet" href="rasterize.css">
+
+    <script type="text/javascript" src="gl-matrix.js"></script>
+    <script type="text/javascript" src="rasterize.js"></script>
+  </head>
+
+  <body onload="main();">
+    <canvas id="myImageCanvas" width="512" height="512"></canvas>
+    <canvas id="myWebGLCanvas" width="512" height="512"></canvas> 
+  </body>
+
+  <div class="container">
+    <canvas id="myScoreCanvas"></canvas>
+    <div id="overlay">
+      <div>Score:<span id="score"></span></div>
+    </div>
+    <canvas id="myGameOverCanvas"></canvas>
+    <div id="gameOver">
+      <div>GAME OVER<span id="over"></span>
+    </div>
+
+  </div>
+</html>
